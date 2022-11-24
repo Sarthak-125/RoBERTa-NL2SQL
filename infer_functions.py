@@ -210,11 +210,11 @@ def infer(nlu1,
     pr_sql_q1 = generate_sql_q(pr_sql_i, tb)
     pr_sql_q = [pr_sql_q1]
 
-    print(f'START ============================================================= ')
-    print(f'{hds}')
-    print(f'nlu: {nlu}')
-    print(f'pr_sql_i : {pr_sql_i}')
-    print(f'pr_sql_q : {pr_sql_q}')
-    print(f'---------------------------------------------------------------------')
+    #print(f'START ============================================================= ')
+    #print(f'{hds}')
+    #print(f'nlu: {nlu}')
+    #print(f'pr_sql_i : {pr_sql_i}')
+    #print(f'pr_sql_q : {pr_sql_q}')
+    #print(f'---------------------------------------------------------------------')
 
     return pr_sql_i, pr_sql_q1
